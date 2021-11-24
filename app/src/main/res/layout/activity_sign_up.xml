@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+     android:gravity="center_horizontal"
+    >
+  <TextView
+      android:paddingTop="100dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Fill up the following fields and then click Sign up button"
+      android:textStyle="bold"
+      android:paddingBottom="20dp"
+    />
+
+
+  <EditText
+
+      android:backgroundTint="#BCC3C3"
+      android:layout_marginLeft="40dp"
+      android:layout_marginRight="40dp"
+      android:padding="20dp"
+      android:id="@+id/signupEmailId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Email"
+
+
+      />
+    <EditText
+
+        android:backgroundTint="#BCC3C3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="20dp"
+        android:id="@+id/signUpUsernameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+
+
+        />
+    <EditText
+        android:backgroundTint="#BCC3C3"
+        android:inputType="textPassword"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="20dp"
+        android:id="@+id/signUppasswrdID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        />
+    <Button
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/regSignUpId"
+        />
+  <ProgressBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:id="@+id/signUpProgressId"
+/>
+
+
+
+
+
+</LinearLayout>

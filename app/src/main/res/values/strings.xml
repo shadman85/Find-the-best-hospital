@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lab-1</string>
+    <string name="available_icu">Available ICU :</string>
+    <string name="icu_charge">ICU Charge :</string>
+    <string name="surgery_cost">Surgery Cost :</string>
+    <string name="x_ray_cost">X-ray Cost :</string>
+    <string name="ecg_cost">ECG cost :</string>
+    <string name="hospital_name">Hospital Name :</string>
+    <string-array name="country_name">
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Bhutan</item>
+        <item>Japan</item>
+        <item>China</item>
+        <item>Nepal</item>
+
+
+    </string-array>
+
+
+</resources>

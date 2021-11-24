@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".Rating">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate your Favourite Hospital"
+        android:textColor="#ff22"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/userRateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the hospital ID"
+        android:background="@drawable/textview_border"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/userGivenRateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Rate out of 5"
+        android:background="@drawable/textview_border"
+        />
+    <Button
+        android:id="@+id/userclickokId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/ratingListId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See the Hospital Rating List"
+        />
+
+
+</LinearLayout>
